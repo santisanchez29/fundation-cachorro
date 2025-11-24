@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--1. Los metadatos-->
+<meta charset="UTF-8">
+<meta name="description" content="nombre fundación - pequeña descripción">
+<meta name="keywords" content="keywords">
+<meta name="author" content="su nombre">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--2. título de la página que aparece en el buscador-->
+<title>Fundación cachorro</title>
+<!--enlace al archivo CSS-->
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Elms+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="CSS/style.css">
+</head>
+<!--Hasta acá va el head-->
+<body>
+    <header class="header">
+        <div class="container header-inner">
+        <a class="logo" hred="#">
+<img src="IMG/logo.png" alt="Logo nombre de la fundación" height="80" />
+        </a>
+        
+    <nav class="inicio">
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a class="btn-dona" href="#donar">Donar</a></li>
+        </ul>
+    </nav>
+    </div>
+    </header>
+
+<main>
+    <section class="hero video-hero">
+      <video class="hero-video" id="heroVideo" autoplay muted loop playsinline>
+        <source src="IMG/fundación cachorro-2.mp4" type="video/mp4" />
+      </video>
+
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content container">
+          <div class="hero-actions">
+            <a class="btn primary" href="https://forms.gle/eQNZSkHmKYV4QSzaA">Dona</a>
+            <a class="btn outline" href="#voluntariado">Sé parte</a>
+          </div>
+
+        <div class="stats-grid">
+          <div class="stat">
+            <div class="stat-number">+10,000</div>
+            <div class="stat-label">Cachorros beneficiados</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">+200</div>
+            <div class="stat-label">Cuidadores capacitados</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">+3</div>
+            <div class="stat-label">Cetros de cuidado</div>
+          </div>
+        </div>
+      </div>
+
+        </div>
+        </section> <!--Fin hero y cierra las estadisticas y todo-->
+
+        <section id="proyectos" class="projects container">
+          <h2>Proyectos en Mexico</h2>
+          <p class="lead">Cuidamos y damos en adopción a perritos para darles una oportunidad de tener una familia:</p>
+    
+          <div class="project-cards">
+            <article class="card">
+              <div class="card-img" id="perritos"></div>
+              <div class="card-body">
+                <h3>Satélite — Estado de México</h3>
+                <p>Centro de cuidado y adoptivo.</p>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-img" id="perritosjugando"></div>
+              <div class="card-body">
+                <h3>San Angel — Ciudad de México</h3>
+                <p>Centro principal de cuidado y el más grande a nivel nacional para adoptar un perrito.</p>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-img" id="perritosjugando2"></div>
+              <div class="card-body">
+                <h3>Lomas Verdes — Estado de México</h3>
+                <p>Nuestro centro más grande en el cúal contamos con más de 5,000 perritos.</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section id="contacto" class="newsletter">
+      <div class="container newsletter-inner">
+        <div>
+          <h2>¡No te pierdas lo último!</h2>
+          <p>El centro más reciente con un todo lo necesario para el cuidado de los perritos.</p>
+        </div>
+        <form id="subscribeForm" class="subscribe-form" novalidate>
+          <input id="email" type="email" placeholder="Tu correo electrónico" required />
+          <button class="btn primary" type="submit">Suscribirme</button>
+        </form>
+        <div id="formMessage" class="form-message"></div>
+      </div>
+    </section>
+
+</main>
+<footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-col">
+        <h4>Sobre la fundación</h4>
+        <p>Fundación para el bienestar perruno</p>
+      </div>
+      <div class="footer-col">
+        <h4>Enlaces</h4>
+        <ul>
+          <li><a href="#quienes">Quiénes somos</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#impacto">Impacto</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contacto</h4>
+        <address>
+          Santiago 104<br/>Estado de México, México<br/>
+          <a href="mailto:s.sanchez082@ebc.edu.mx"> s.sanchez082@ebc.edu.mx </a>
+        </address>
+      </div>
+    </div>
+
+     <!-- Redes sociales -->
+  <div class="footer-social">
+    <div class="container social-icons">
+      <a href="https://www.facebook.com" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.youtube.com" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+      <a href="https://www.linkedin.com" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="https://x.com" aria-label="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+     
+    </div>
+  </div>
+
+    <div class="footer-bottom">
+      <div class="container">© <span id="anio"></span> Fundación cachorro </div>
+    </div>
+  </footer>
+
+  <script src="JS/script.js"></script>
+</body>
+</html>
+
+
+
+<!--Me di cuenta que si te falta cualquier palabrita, signo o si no cierras algo, no te va a salir. Todo es importante para que quede bien-->
